@@ -18,11 +18,15 @@ class Program
         Producto producto3 = new Producto(3, "Union 500 grs", yerba);
 
 
-        Console.WriteLine("Lista de productos: ");
+        Console.WriteLine("Lista de productos: \n ");
         Console.WriteLine($"NroIdProducto: {producto1.IdProducto}, Producto 1: {producto1.NombreProducto}, Tipo: {producto1.Tipo.NombreTipoProducto}");
-        //Console.WriteLine(producto2);
-        //Console.WriteLine(producto3);
-
+        Console.WriteLine($"NroIdProducto: {producto2.IdProducto}, Producto 1: {producto2.NombreProducto}, Tipo: {producto2.Tipo.NombreTipoProducto}");
+        Console.WriteLine($"NroIdProducto: {producto3.IdProducto}, Producto 1: {producto3.NombreProducto}, Tipo: {producto3.Tipo.NombreTipoProducto}");
+        Console.WriteLine("\n");
+        Console.WriteLine("Lista de tipos de Productos: \n ");
+        Console.WriteLine($"IdGenero: {fruta.IdTipoProducto}, Genero: {fruta.NombreTipoProducto} ");
+        Console.WriteLine($"IdGenero: {gaseosa.IdTipoProducto}, Genero: {gaseosa.NombreTipoProducto} ");
+        Console.WriteLine($"IdGenero: {yerba.IdTipoProducto}, Genero: {yerba.NombreTipoProducto} ");
 
     }
 }
