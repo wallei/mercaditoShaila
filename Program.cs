@@ -4,7 +4,17 @@ class Program
 {
     static void Main()
 
-        {
+    {
+
+
+        Console.WriteLine("Bienvenido al Mercadito Shaila \n");
+
+
+        Console.WriteLine("1. Listar productos");
+        Console.WriteLine("2. Cargar producto");
+        Console.WriteLine("3. Listar tipos de producto");
+        Console.WriteLine("4. Dar de alta tipo de producto");
+        Console.WriteLine("5. Salir");
 
         // Creación de algunos objetos TipoProducto
         TipoProducto fruta = new TipoProducto(1, "Fruta");
@@ -18,7 +28,7 @@ class Program
         Producto producto3 = new Producto(3, "Union 500 grs", yerba);
 
 
-        Console.WriteLine("Lista de productos: \n ");
+        Console.WriteLine("\n Lista de productos: \n ");
         Console.WriteLine($"NroIdProducto: {producto1.IdProducto}, Producto 1: {producto1.NombreProducto}, Tipo: {producto1.Tipo.NombreTipoProducto}");
         Console.WriteLine($"NroIdProducto: {producto2.IdProducto}, Producto 1: {producto2.NombreProducto}, Tipo: {producto2.Tipo.NombreTipoProducto}");
         Console.WriteLine($"NroIdProducto: {producto3.IdProducto}, Producto 1: {producto3.NombreProducto}, Tipo: {producto3.Tipo.NombreTipoProducto}");
